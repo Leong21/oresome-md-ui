@@ -12,6 +12,8 @@ npm install --save oresome-md-ui
 
 ## Usage
 
+Refer to the example (https://github.com/Leong21/oresome-md-ui/tree/master/example)
+
 ```jsx
 import React, { Component } from 'react'
 import { MuiThemeProvider, CssBaseline, createMuiTheme } from '@material-ui/core';
