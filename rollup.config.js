@@ -30,7 +30,11 @@ export default {
     babel({
       exclude: 'node_modules/**'
     }),
-    resolve(),
+    resolve({
+      jsnext: true,
+      main: true,
+      browser: true
+    }),
     commonjs()
   ]
 }

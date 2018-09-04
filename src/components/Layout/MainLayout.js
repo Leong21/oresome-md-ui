@@ -122,6 +122,9 @@ const styles = theme => ({
   },
   topBarActions: {
     marginRight: '12px'
+  }, 
+  flexDiv: {
+    display: 'flex'
   }
 });
 
@@ -201,7 +204,7 @@ class MainLayout extends Component {
             menuItems={this.props.menuItems}
           /> 
         </Hidden>
-        <Hidden smDown implementation="css">
+        <Hidden className={classes.flexDiv} smDown implementation="css">
           <SideBar 
             variant="permanent"
             open={this.state.sideBarOpen}
